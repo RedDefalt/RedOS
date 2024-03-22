@@ -1,0 +1,3 @@
+/home/reddefaltos/CLionProjects/RedOS/cmake-build-debug/CMakeFiles/RedOS.dir
+/home/reddefaltos/CLionProjects/RedOS/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/reddefaltos/CLionProjects/RedOS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
