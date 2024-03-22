@@ -4,6 +4,8 @@
 
 #ifndef DATASTRUCTURE_H
 #define DATASTRUCTURE_H
+#include <stdlib.h>
+#include <stdio.h>
 
 typedef struct ObjectData{
     char name[127];
@@ -12,5 +14,13 @@ typedef struct ObjectData{
     int number_of_ptr;
 } StructureObjectData;
 
+StructureObjectData* InitObject(void) {
+    StructureObjectData* Object = malloc(sizeof(StructureObjectData));
+    if (Object == NULL) {
+        printf("OUT OF MEM");
+        exit(-1);
+    }
+    return Object;
+}
 
 #endif //DATASTRUCTURE_H
