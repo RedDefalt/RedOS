@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "../inc/DataStructure.h"
 
 int main(void)
 {
